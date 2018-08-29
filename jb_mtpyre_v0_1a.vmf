@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "90"
+	"mapversion" "91"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "90"
+	"mapversion" "91"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -42646,6 +42646,11 @@ entity
 	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "hurt_arm_anticamp"
+	connections
+	{
+		"OnUser1" "hurt_arm_anticamp,Disable,,0,-1"
+		"OnUser1" "door_arm,Unlock,,0,-1"
+	}
 	solid
 	{
 		"id" "6574"
@@ -42728,6 +42733,104 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -13268]"
+	}
+}
+entity
+{
+	"id" "29233"
+	"classname" "trigger_multiple"
+	"origin" "-127 -1585 224"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"wait" "0"
+	connections
+	{
+		"OnStartTouchAll" "hurt_arm_anticamp,Enable,,30,-1"
+		"OnStartTouchAll" "door_arm,Lock,,30,-1"
+		"OnStartTouchAll" "hurt_arm_anticamp,FireUser1,,30,-1"
+	}
+	solid
+	{
+		"id" "29231"
+		side
+		{
+			"id" "25317"
+			"plane" "(-318 -1409 320) (64 -1409 320) (64 -1761 320)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25316"
+			"plane" "(-318 -1761 128) (64 -1761 128) (64 -1409 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25315"
+			"plane" "(-318 -1409 320) (-318 -1761 320) (-318 -1761 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25314"
+			"plane" "(64 -1409 128) (64 -1761 128) (64 -1761 320)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25313"
+			"plane" "(64 -1409 320) (-318 -1409 320) (-318 -1409 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25312"
+			"plane" "(64 -1761 128) (-318 -1761 128) (-318 -1761 320)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
