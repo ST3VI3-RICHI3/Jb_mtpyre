@@ -1,9 +1,0 @@
-UnlitGeneric
-{
-     $basetexture 80s_release_pb/grid_glow
-	 $nocull 1
-     $color "{255 255 255}"
-     $nodecal 1
-}
-
-// Created by Zool, modified by CaptainR3sPawN and Lewd Pink.
