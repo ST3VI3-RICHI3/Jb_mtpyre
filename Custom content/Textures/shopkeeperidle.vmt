@@ -1,0 +1,15 @@
+"UnlitGeneric"
+ {
+  "$baseTexture" "Crypt/Enemies/shopkeeperidle"
+  "$translucent" "1"
+  "$surfaceprop" "no_decal"
+  "Proxies" 
+       { 
+         "AnimatedTexture" 
+         { 
+            "animatedTextureVar" "$basetexture" 
+            "animatedTextureFrameNumVar" "$frame" 
+            "animatedTextureFrameRate" "6" 
+         }
+    } 
+ }
