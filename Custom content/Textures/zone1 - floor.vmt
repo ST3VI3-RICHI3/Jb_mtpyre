@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Crypt/zone1 - floor"
+	"$surfaceprop" "Dirt"
+      "proxies"
+      {
+          "Animatedtexture"
+              {
+              "Animatedtexturevar" "$Basetexture"
+              "Animatedtextureframenumvar" "$frame"
+              "Animatedtextureframerate" "2.3"
+              }
+      }
+}
