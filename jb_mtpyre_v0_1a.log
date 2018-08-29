@@ -1,0 +1,169 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\materials
+Loading C:\Users\Alex\Documents\GitHub\Jb_mtpyre\jb_mtpyre_v0_1a.vmf
+material "plain_colors/black" not found.
+Material not found!: PLAIN_COLORS/BLACK
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "plain_colors/red" not found.
+Material not found!: PLAIN_COLORS/RED
+material "plain_colors/purple" not found.
+Material not found!: PLAIN_COLORS/PURPLE
+material "plain_colors/pink" not found.
+Material not found!: PLAIN_COLORS/PINK
+material "plain_colors/orange" not found.
+Material not found!: PLAIN_COLORS/ORANGE
+material "plain_colors/white" not found.
+Material not found!: PLAIN_COLORS/WHITE
+material "plain_colors/yellow" not found.
+Material not found!: PLAIN_COLORS/YELLOW
+material "plain_colors/skyblue" not found.
+Material not found!: PLAIN_COLORS/SKYBLUE
+material "plain_colors/green" not found.
+Material not found!: PLAIN_COLORS/GREEN
+material "custom_textures/grass" not found.
+Material not found!: CUSTOM_TEXTURES/GRASS
+material "mario64ds/mg_net" not found.
+Material not found!: MARIO64DS/MG_NET
+material "glass_refract_v2/glass_refract_stripe01_tntred" not found.
+Material not found!: GLASS_REFRACT_V2/GLASS_REFRACT_STRIPE01_TNTRED
+material "glass_refract_v2/glass_refract_stripe01_tntblu" not found.
+Material not found!: GLASS_REFRACT_V2/GLASS_REFRACT_STRIPE01_TNTBLU
+material "a-madman/glowing_transparent_squares/white_glowing_glass" not found.
+Material not found!: A-MADMAN/GLOWING_TRANSPARENT_SQUARES/WHITE_GLOWING_GLASS
+material "/lavablend" not found.
+Material not found!: /LAVABLEND
+Patching WVT material: maps/jb_mtpyre_v0_1a/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-138.00 -2616.00 -134.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (205151 bytes)
+Error! prop_static using model "models/props_wasteland/prison_bedframe001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/prison_bedframe001a.mdl"!
+Error! To use model "models/props_medieval/tank_entrance_rottenburg_intact.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_medieval/tank_entrance_rottenburg_intact.mdl"!
+Error! To use model "models/player/items/taunts/beer_crate/beer_crate.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/items/taunts/beer_crate/beer_crate.mdl"!
+Error! To use model "models/weapons/w_models/w_bottle.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/w_models/w_bottle.mdl"!
+Error! To use model "models/weapons/c_models/c_lollichop/c_lollichop.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/c_models/c_lollichop/c_lollichop.mdl"!
+Error! To use model "models/weapons/c_models/c_holymackerel.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/c_models/c_holymackerel.mdl"!
+Error! To use model "models/weapons/c_models/c_candy_cane/c_candy_cane.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/weapons/c_models/c_candy_cane/c_candy_cane.mdl"!
+Error! prop_static using model "models/props_c17/bench01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_c17/bench01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 495 texinfos to 393
+Reduced 46 texdatas to 41 (1228 bytes to 1035)
+Writing C:\Users\Alex\Documents\GitHub\Jb_mtpyre\jb_mtpyre_v0_1a.bsp
+Wrote ZIP buffer, estimated size 1819, actual size 1337
+43 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 15
+
+
+
+4 threads
+reading c:\users\alex\documents\github\jb_mtpyre\jb_mtpyre_v0_1a.bsp
+reading c:\users\alex\documents\github\jb_mtpyre\jb_mtpyre_v0_1a.prt
+LoadPortals: couldn't read c:\users\alex\documents\github\jb_mtpyre\jb_mtpyre_v0_1a.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\alex\documents\github\jb_mtpyre\jb_mtpyre_v0_1a.bsp
+No vis information, direct lighting only.
+4702 faces
+2982622 square feet [429497568.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+49 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0844 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+20 of 41 (48% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 104/1024         4992/49152    (10.2%) 
+brushes                472/8192         5664/98304    ( 5.8%) 
+brushsides            3381/65536       27048/524288   ( 5.2%) 
+planes                3360/65536       67200/1310720  ( 5.1%) 
+vertexes              6506/65536       78072/786432   ( 9.9%) 
+nodes                 3019/65536       96608/2097152  ( 4.6%) 
+texinfos               393/12288       28296/884736   ( 3.2%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4702/65536      263312/3670016  ( 7.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2202/65536      123312/3670016  ( 3.4%) 
+leaves                3124/65536       99968/2097152  ( 4.8%) 
+leaffaces             5455/65536       10910/131072   ( 8.3%) 
+leafbrushes           1395/65536        2790/131072   ( 2.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            30920/512000     123680/2048000  ( 6.0%) 
+edges                16569/256000      66276/1024000  ( 6.5%) 
+LDR worldlights         49/8192         4312/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            446/32768        4460/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6873/65536       13746/131072   (10.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1761928/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       69916/393216   (17.8%) 
+LDR ambient table     3124/65536       12496/262144   ( 4.8%) 
+HDR ambient table     3124/65536       12496/262144   ( 4.8%) 
+LDR leaf ambient     15961/65536      446908/1835008  (24.4%) 
+HDR leaf ambient      3124/65536       87472/1835008  ( 4.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1254     ( 0.1%) 
+pakfile               [variable]        1337/0        ( 0.0%) 
+physics               [variable]      205151/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12633
+Writing c:\users\alex\documents\github\jb_mtpyre\jb_mtpyre_v0_1a.bsp
+30 seconds elapsed
