@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "77"
+	"mapversion" "78"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "77"
+	"mapversion" "78"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -37113,7 +37113,7 @@ entity
 	"filtername" "phys_football"
 	"Negated" "0"
 	"targetname" "filter_football_vphysics"
-	"origin" "1637.4 -1929.29 130.005"
+	"origin" "1756 -1932 280"
 	editor
 	{
 		"color" "220 30 220"
