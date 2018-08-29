@@ -1615,4 +1615,59 @@ transfer lists:  42.8 megs
 Build Patch/Sample Hash Table(s).....Done<0.1128 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 20 of 143 (13% of) surface lights went in leaf ambient cubes.
-0...1...2...3...4...5...6...7..
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 105/1024         5040/49152    (10.3%) 
+brushes                474/8192         5688/98304    ( 5.8%) 
+brushsides            3393/65536       27144/524288   ( 5.2%) 
+planes                3368/65536       67360/1310720  ( 5.1%) 
+vertexes              6497/65536       77964/786432   ( 9.9%) 
+nodes                 2915/65536       93280/2097152  ( 4.4%) 
+texinfos               394/12288       28368/884736   ( 3.2%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4667/65536      261352/3670016  ( 7.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2157/65536      120792/3670016  ( 3.3%) 
+leaves                3021/65536       96672/2097152  ( 4.6%) 
+leaffaces             5454/65536       10908/131072   ( 8.3%) 
+leafbrushes           1550/65536        3100/131072   ( 2.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            30630/512000     122520/2048000  ( 6.0%) 
+edges                16396/256000      65584/1024000  ( 6.4%) 
+LDR worldlights        151/8192        13288/720896   ( 1.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            452/32768        4520/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7116/65536       14232/131072   (10.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]     1762496/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      322812/16777216 ( 1.9%) 
+entdata               [variable]       70316/393216   (17.9%) 
+LDR ambient table     3021/65536       12084/262144   ( 4.6%) 
+HDR ambient table     3021/65536       12084/262144   ( 4.6%) 
+LDR leaf ambient     13712/65536      383936/1835008  (20.9%) 
+HDR leaf ambient      3021/65536       84588/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1254     ( 0.1%) 
+pakfile               [variable]        1337/0        ( 0.0%) 
+physics               [variable]      206099/4194304  ( 4.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 12593
+Writing c:\users\alex\documents\github\jb_mtpyre\jb_mtpyre_v0_1a.bsp
+48 seconds elapsed
