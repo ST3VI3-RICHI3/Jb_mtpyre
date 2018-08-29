@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7937"
-	"mapversion" "77"
+	"editorbuild" "7803"
+	"mapversion" "76"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "77"
+	"mapversion" "76"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -21522,9 +21522,9 @@ world
 		side
 		{
 			"id" "24601"
-			"plane" "(1790 -116 178) (1790 -116 150) (1790 -112 150)"
+			"plane" "(1790 -117 178) (1790 -117 150) (1790 -113 150)"
 			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[0 1 0 -4] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -21533,9 +21533,9 @@ world
 		side
 		{
 			"id" "24600"
-			"plane" "(1870 -112 178) (1870 -112 150) (1870 -116 150)"
+			"plane" "(1870 -113 178) (1870 -113 150) (1870 -117 150)"
 			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[0 1 0 -4] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -21544,7 +21544,7 @@ world
 		side
 		{
 			"id" "24599"
-			"plane" "(1870 -116 178) (1870 -116 150) (1790 -116 150)"
+			"plane" "(1870 -117 178) (1870 -117 150) (1790 -117 150)"
 			"material" "PLAIN_COLORS/WHITE"
 			"uaxis" "[1 0 0 77] 0.1563"
 			"vaxis" "[0 0 -1 183] 0.1094"
@@ -21555,7 +21555,7 @@ world
 		side
 		{
 			"id" "24598"
-			"plane" "(1790 -112 178) (1790 -112 150) (1870 -112 150)"
+			"plane" "(1790 -113 178) (1790 -113 150) (1870 -113 150)"
 			"material" "PLAIN_COLORS/WHITE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -21566,10 +21566,10 @@ world
 		side
 		{
 			"id" "24597"
-			"plane" "(1790 -112 150) (1790 -116 150) (1870 -116 150)"
+			"plane" "(1790 -113 150) (1790 -117 150) (1870 -117 150)"
 			"material" "PLAIN_COLORS/WHITE"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -21577,10 +21577,10 @@ world
 		side
 		{
 			"id" "24596"
-			"plane" "(1790 -116 178) (1790 -112 178) (1870 -112 178)"
+			"plane" "(1790 -117 178) (1790 -113 178) (1870 -113 178)"
 			"material" "PLAIN_COLORS/WHITE"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -26011,7 +26011,7 @@ entity
 		"OnPass" "door_arm,Open,,0,-1"
 		"OnFail" "door_arm,Close,,0,-1"
 	}
-	"origin" "-72 -1336 272"
+	"origin" "-127 -1322 212.423"
 	editor
 	{
 		"color" "220 30 220"
@@ -28699,7 +28699,7 @@ entity
 		"OnPass" "relay_mca_doors,Trigger,,0,-1"
 		"OnPass" "relay_mca_autodoors,Disable,,0,-1"
 	}
-	"origin" "64 -1328 256"
+	"origin" "11.8982 -1322 213"
 	editor
 	{
 		"color" "220 30 220"
@@ -28720,7 +28720,7 @@ entity
 		"OnTrigger" "text_mca_doors,Display,,0,-1"
 		"OnTrigger" "text_mca_doors,Kill,,0.01,-1"
 	}
-	"origin" "48 -1328 256"
+	"origin" "21.9955 -1264.23 288.658"
 	editor
 	{
 		"color" "220 30 220"
@@ -35503,7 +35503,7 @@ entity
 	{
 		"OnMapSpawn" "relay_mca_autodoors,Trigger,,60,1"
 	}
-	"origin" "80 -1328 256"
+	"origin" "67.8081 -1256.23 208.839"
 	editor
 	{
 		"color" "220 30 220"
@@ -37409,7 +37409,7 @@ entity
 	{
 		"OnTrigger" "relay_mca_doors,Trigger,,0,-1"
 	}
-	"origin" "80 -1328 240"
+	"origin" "89.4229 -1256.23 242.509"
 	editor
 	{
 		"color" "220 30 220"
@@ -37426,7 +37426,7 @@ entity
 	"display_to_team" "0"
 	"message" "The Cell Doors have been Opened!"
 	"targetname" "text_mca_doors"
-	"origin" "96 -1328 256"
+	"origin" "90.078 -1256.23 252.863"
 	editor
 	{
 		"color" "220 30 220"
