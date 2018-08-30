@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "93"
+	"mapversion" "96"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "93"
+	"mapversion" "96"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -24641,9 +24641,9 @@ world
 		{
 			"id" "25329"
 			"plane" "(1790 -116 178) (1790 -116 150) (1790 -112 150)"
-			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "JEOPARDY/HOSTLABEL"
+			"uaxis" "[0 1 0 0] 0.0078125"
+			"vaxis" "[0 0 -1 91.4286] 0.109375"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24652,9 +24652,9 @@ world
 		{
 			"id" "25328"
 			"plane" "(1870 -112 178) (1870 -112 150) (1870 -116 150)"
-			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[0 1 0 -4] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "JEOPARDY/HOSTLABEL"
+			"uaxis" "[0 1 0 0] 0.0078125"
+			"vaxis" "[0 0 -1 91.4286] 0.109375"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24674,9 +24674,9 @@ world
 		{
 			"id" "25326"
 			"plane" "(1790 -112 178) (1790 -112 150) (1870 -112 150)"
-			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "JEOPARDY/HOSTLABEL"
+			"uaxis" "[1 0 0 -192] 0.15625"
+			"vaxis" "[0 0 -1 91.4286] 0.109375"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24685,9 +24685,9 @@ world
 		{
 			"id" "25325"
 			"plane" "(1790 -112 150) (1790 -116 150) (1870 -116 150)"
-			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
+			"material" "JEOPARDY/HOSTLABEL"
+			"uaxis" "[1 0 0 -192] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.015625"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24696,9 +24696,9 @@ world
 		{
 			"id" "25324"
 			"plane" "(1790 -116 178) (1790 -112 178) (1870 -112 178)"
-			"material" "PLAIN_COLORS/WHITE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 4] 0.25"
+			"material" "JEOPARDY/HOSTLABEL"
+			"uaxis" "[1 0 0 -192] 0.15625"
+			"vaxis" "[0 -1 0 0] 0.015625"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24706,6 +24706,82 @@ world
 		editor
 		{
 			"color" "0 242 111"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "29653"
+		side
+		{
+			"id" "25330"
+			"plane" "(1319 -86 335) (1320 -86 335) (1320 -201 335)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.015625"
+			"vaxis" "[0 -1 0 -47.8609] 1.79688"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25331"
+			"plane" "(1319 -201 288) (1320 -201 288) (1320 -86 288)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.015625"
+			"vaxis" "[0 -1 0 -47.8609] 1.79688"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25332"
+			"plane" "(1319 -86 335) (1319 -201 335) (1319 -201 288)"
+			"material" "JEOPARDY/LOGO"
+			"uaxis" "[0 -1 0 -765.774] 0.112305"
+			"vaxis" "[0 0 -1 32.6809] 0.183594"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25333"
+			"plane" "(1320 -86 288) (1320 -201 288) (1320 -201 335)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 61.7739] 0.112305"
+			"vaxis" "[0 0 -1 32.6809] 0.183594"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25334"
+			"plane" "(1320 -86 335) (1319 -86 335) (1319 -86 288)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.015625"
+			"vaxis" "[0 0 -1 8.17023] 0.734375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25335"
+			"plane" "(1320 -201 288) (1319 -201 288) (1319 -201 335)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.015625"
+			"vaxis" "[0 0 -1 8.17023] 0.734375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 231 228"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
